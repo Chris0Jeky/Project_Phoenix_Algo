@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 bg-primary-900/80 backdrop-blur-lg border-b border-primary-700/50">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-midnight/80 backdrop-blur-xl border-b border-steel/10 hairline-b">
     <nav class="container-custom">
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
@@ -9,7 +9,7 @@
             alt="Metricalgo Logo"
             class="h-10 w-auto transform group-hover:scale-110 transition-transform duration-300"
           />
-          <span class="text-xl font-display font-bold text-white">Metricalgo</span>
+          <span class="text-xl font-display font-bold text-platinum">Metricalgo</span>
         </NuxtLink>
 
         <!-- Desktop Navigation -->
@@ -18,7 +18,7 @@
             v-for="link in navLinks"
             :key="link.name"
             :to="link.href"
-            class="text-gray-300 hover:text-accent-400 transition-colors duration-300 font-medium"
+            class="nav-link text-steel hover:text-platinum transition-colors duration-300 font-medium"
           >
             {{ link.name }}
           </NuxtLink>
@@ -29,7 +29,7 @@
           <NuxtLink to="/login" class="hidden sm:block btn-ghost text-sm">
             Login
           </NuxtLink>
-          <NuxtLink to="/signup" class="btn-primary text-sm">
+          <NuxtLink to="/signup" class="btn-electric text-sm sheen">
             Get Started Free
           </NuxtLink>
         </div>
