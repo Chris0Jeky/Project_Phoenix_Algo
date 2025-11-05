@@ -19,14 +19,14 @@
           </div>
 
           <!-- Headline -->
-          <h1 class="text-hero-mobile md:text-hero font-display font-bold text-white mb-6 text-balance">
+          <h1 class="text-hero-mobile md:text-hero font-display font-bold text-platinum mb-6 text-balance">
             Trade Smarter with
             <span class="gradient-text">AI-Powered</span>
             Analytics
           </h1>
 
           <!-- Subheadline -->
-          <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+          <p class="text-lg md:text-xl text-steel-light mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
             Make confident trading decisions with real-time market insights, advanced backtesting tools, and AI-powered analysis. Join thousands of traders who trust Metricalgo.
           </p>
 
