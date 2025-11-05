@@ -15,20 +15,19 @@
 
           <!-- Headline -->
           <h1 class="text-hero-mobile md:text-hero font-display font-bold text-platinum mb-6 text-balance">
-            Trade Smarter with
-            <span class="gradient-text">AI-Powered</span>
-            Analytics
+            Discover the historical likelihood
+            <span class="gradient-text block mt-2">that your next trade will be successful</span>
           </h1>
 
           <!-- Subheadline -->
           <p class="text-lg md:text-xl text-steel-light mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-            Make confident trading decisions with real-time market insights, advanced backtesting tools, and AI-powered analysis. Join thousands of traders who trust Metricalgo.
+            For every type of trading, from stocks and cryptocurrencies to financial options, MetricAlgo is your ally in analyzing the probability and timing of target achievement. We offer detailed historical analysis and advanced charts for reliable estimates of probabilities.
           </p>
 
           <!-- Premium CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <NuxtLink to="/signup" class="btn-electric btn-press text-lg px-8 py-4 sheen glow-electric">
-              Get Started Free
+              Start Free Trial
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
               </svg>
@@ -43,24 +42,24 @@
           </div>
 
           <!-- Trust indicators -->
-          <div class="mt-12 flex flex-wrap items-center gap-8 justify-center lg:justify-start text-sm text-gray-400">
+          <div class="mt-12 flex flex-wrap items-center gap-8 justify-center lg:justify-start text-sm text-steel">
             <div class="flex items-center gap-2">
-              <svg class="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-5 h-5 text-electric" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
-              <span>No credit card required</span>
+              <span>1000+ Securities</span>
             </div>
             <div class="flex items-center gap-2">
-              <svg class="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-5 h-5 text-electric" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
-              <span>14-day free trial</span>
+              <span>Bank-level encryption</span>
             </div>
             <div class="flex items-center gap-2">
-              <svg class="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-5 h-5 text-electric" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
-              <span>Cancel anytime</span>
+              <span>Professional traders</span>
             </div>
           </div>
         </div>
