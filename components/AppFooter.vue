@@ -96,8 +96,8 @@
 
       <!-- Bottom Bar -->
       <div class="mt-12 pt-8 border-t border-primary-700/50 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-gray-400 text-sm">
-          © {{ currentYear }} Metricalgo. All rights reserved.
+        <p class="text-gray-400 text-sm text-center md:text-left">
+          © {{ currentYear }} MetricAlgo.com all rights reserved - By Angelomileto.com & C. in Canary Island, Las Palmas
         </p>
 
         <!-- Social Links -->
@@ -126,15 +126,15 @@ const currentYear = computed(() => new Date().getFullYear())
 
 const productLinks = [
   { name: 'Features', href: '#features' },
-  { name: 'Analytics', href: '#analytics' },
   { name: 'Pricing', href: '#pricing' },
-  { name: 'API', href: '#api' },
+  { name: 'Case Studies', href: '#case-studies' },
+  { name: 'Free Course', href: '/course' },
 ]
 
 const companyLinks = [
   { name: 'About Us', href: '/about' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Careers', href: '/careers' },
+  { name: 'Community', href: '/community' },
+  { name: 'TrustPilot Reviews', href: 'https://www.trustpilot.com' },
   { name: 'Contact', href: '/contact' },
 ]
 
@@ -142,6 +142,7 @@ const legalLinks = [
   { name: 'Privacy Policy', href: '/privacy' },
   { name: 'Terms of Service', href: '/terms' },
   { name: 'Cookie Policy', href: '/cookies' },
+  { name: 'Disclaimer', href: '/disclaimer' },
 ]
 
 // Simple SVG icons as components
