@@ -18,44 +18,93 @@
 }
 
 @layer components {
-  /* Button styles */
+  /* Premium Button styles */
   .btn {
-    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center justify-center gap-2;
+    @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300 inline-flex items-center justify-center gap-2 relative overflow-hidden;
   }
 
+  /* Metallic button with sheen effect */
+  .btn-metal {
+    @apply btn text-midnight relative;
+    background: linear-gradient(180deg, #F4F7FA 0%, #DDE3EA 55%, #C7D0DA 100%);
+    border: 1px solid rgba(139, 149, 167, 0.35);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .btn-metal:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+
+  /* Electric button with glow */
+  .btn-electric {
+    @apply btn text-midnight font-bold;
+    background: linear-gradient(180deg, #6FF3FF 0%, #00E5FF 50%, #00B8CC 100%);
+    box-shadow: 0 8px 24px rgba(0, 229, 255, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  .btn-electric:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(0, 229, 255, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  }
+
+  /* Legacy buttons - updated with new colors */
   .btn-primary {
-    @apply btn bg-accent-400 text-primary-900 hover:bg-accent-500 hover:shadow-lg hover:shadow-accent-400/50 hover:-translate-y-0.5;
+    @apply btn bg-electric text-midnight hover:bg-electric-light hover:shadow-lg hover:shadow-electric-glow hover:-translate-y-0.5;
   }
 
   .btn-secondary {
-    @apply btn bg-transparent border-2 border-accent-400 text-accent-400 hover:bg-accent-400 hover:text-primary-900;
+    @apply btn bg-transparent border border-steel text-steel hover:bg-steel/10 hover:text-platinum hover:border-platinum;
   }
 
   .btn-ghost {
-    @apply btn bg-transparent text-gray-300 hover:bg-white/10;
+    @apply btn bg-transparent text-steel hover:bg-platinum/5 hover:text-platinum;
   }
 
-  /* Card styles */
+  /* Glass card styles */
   .card {
-    @apply bg-primary-800/50 backdrop-blur-sm border border-primary-700/50 rounded-xl p-6 transition-all duration-300;
+    @apply rounded-xl p-6 transition-all duration-300;
+    background: rgba(18, 26, 36, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(221, 227, 234, 0.10);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
   }
 
   .card-hover {
-    @apply card hover:bg-primary-800/70 hover:border-accent-400/30 hover:shadow-xl hover:-translate-y-1;
+    @apply card hover:border-electric/30 hover:shadow-xl hover:-translate-y-1;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 229, 255, 0.1);
+  }
+
+  /* Glass morphism card */
+  .card-glass {
+    background: linear-gradient(135deg, rgba(18, 26, 36, 0.7) 0%, rgba(18, 26, 36, 0.5) 100%);
+    backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(221, 227, 234, 0.12);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
   }
 
   /* Section container */
   .section {
-    @apply py-20 md:py-32;
+    @apply py-20 md:py-32 relative;
   }
 
   .container-custom {
     @apply max-w-7xl mx-auto px-6 md:px-8 lg:px-12;
   }
 
-  /* Gradient text */
+  /* Premium gradient text */
   .gradient-text {
-    @apply bg-gradient-to-r from-accent-400 to-accent-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-electric via-electric-light to-platinum bg-clip-text text-transparent;
+    filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.3));
+  }
+
+  .gradient-text-subtle {
+    @apply bg-gradient-to-r from-steel-light to-platinum bg-clip-text text-transparent;
   }
 }
 
