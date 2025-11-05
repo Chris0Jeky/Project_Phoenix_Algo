@@ -1,7 +1,9 @@
 <template>
   <div>
     <HeroSection />
+    <TrustSection />
     <FeaturesSection />
+    <VideoSection />
     <AnalyticsSection />
     <TestimonialsSection />
     <CTASection />
