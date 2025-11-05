@@ -1,19 +1,59 @@
 <template>
   <footer class="bg-primary-950 border-t border-primary-700/50">
     <div class="container-custom py-12">
+      <!-- Newsletter Section -->
+      <div class="mb-12 pb-12 border-b border-primary-700/50">
+        <div class="max-w-2xl mx-auto text-center">
+          <h3 class="text-2xl font-display font-bold text-platinum mb-3">
+            Do you want to stay updated on the latest news?
+          </h3>
+          <p class="text-steel-light mb-6">
+            Subscribe to our newsletter. You will receive useful information and updates directly from the MetricAlgo team.
+          </p>
+
+          <!-- Newsletter Form -->
+          <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <input
+              type="email"
+              placeholder="Your email address"
+              class="flex-1 px-4 py-3 bg-primary-800/50 border border-steel/20 rounded-lg text-platinum placeholder-steel focus:outline-none focus:border-electric transition-colors"
+              required
+            />
+            <button
+              type="submit"
+              class="btn-electric px-6 py-3 sheen whitespace-nowrap"
+            >
+              Subscribe
+            </button>
+          </form>
+
+          <!-- Consent -->
+          <div class="mt-4 flex items-start gap-2 justify-center text-left max-w-md mx-auto">
+            <input
+              type="checkbox"
+              id="consent"
+              class="mt-1 w-4 h-4 text-electric bg-primary-800 border-steel/30 rounded focus:ring-electric focus:ring-offset-0"
+            />
+            <label for="consent" class="text-steel text-xs">
+              I give consent to receive promotional material as indicated in point c of the privacy notice
+            </label>
+          </div>
+        </div>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
         <!-- Brand -->
         <div class="md:col-span-1">
           <div class="flex items-center gap-3 mb-4">
             <img
               src="/images/logo3.png"
-              alt="Metricalgo Logo"
+              alt="MetricAlgo Logo"
               class="h-10 w-auto"
             />
-            <span class="text-xl font-display font-bold text-white">Metricalgo</span>
+            <span class="text-xl font-display font-bold text-white">MetricAlgo</span>
           </div>
           <p class="text-gray-400 text-sm leading-relaxed">
-            Premium trading tools and analytics to help you make confident, data-driven trading decisions.
+            The advantage of statistics applied to trading
           </p>
         </div>
 
