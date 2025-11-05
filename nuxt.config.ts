@@ -8,7 +8,7 @@ export default defineNuxtConfig({
 
   // Configure for GitHub Pages deployment
   app: {
-    baseURL: '/metricalgo_discover/',
+    baseURL: '/Project_Phoenix_Algo/',
     buildAssetsDir: 'assets',
     head: {
       charset: 'utf-8',
