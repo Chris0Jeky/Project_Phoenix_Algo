@@ -5,7 +5,7 @@
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3 group">
           <img
-            src="/Project_Phoenix_Algo/images/logo3.png"
+            src="/images/logo3.png"
             alt="Metricalgo Logo"
             class="h-10 w-auto transform group-hover:scale-110 transition-transform duration-300"
           />

@@ -6,7 +6,7 @@
         <div class="md:col-span-1">
           <div class="flex items-center gap-3 mb-4">
             <img
-              src="/Project_Phoenix_Algo/images/logo3.png"
+              src="/images/logo3.png"
               alt="Metricalgo Logo"
               class="h-10 w-auto"
             />

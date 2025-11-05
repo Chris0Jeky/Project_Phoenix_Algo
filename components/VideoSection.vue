@@ -23,7 +23,7 @@
           <div class="relative aspect-video bg-gradient-to-br from-primary-800 to-primary-900">
             <!-- Placeholder image with play button -->
             <img
-              src="/Project_Phoenix_Algo/images/pexels-artempodrez-5716052.jpg"
+              src="/images/pexels-artempodrez-5716052.jpg"
               alt="Video Tutorial Preview"
               class="absolute inset-0 w-full h-full object-cover opacity-60"
             />
@@ -121,21 +121,21 @@ const tutorials = [
     title: 'Advanced Charting Tools',
     description: 'Master our professional charting suite with 100+ technical indicators',
     duration: '8:45',
-    thumbnail: '/Project_Phoenix_Algo/images/pexels-markusspiske-225769.jpg'
+    thumbnail: '/images/pexels-markusspiske-225769.jpg'
   },
   {
     id: 2,
     title: 'AI-Powered Market Analysis',
     description: 'Learn how our AI algorithms help you identify profitable trading opportunities',
     duration: '10:22',
-    thumbnail: '/Project_Phoenix_Algo/images/pexels-divinetechygirl-1181676.jpg'
+    thumbnail: '/images/pexels-divinetechygirl-1181676.jpg'
   },
   {
     id: 3,
     title: 'Risk Management Strategies',
     description: 'Protect your capital with advanced risk management tools and techniques',
     duration: '15:18',
-    thumbnail: '/Project_Phoenix_Algo/images/pexels-philkallahar-983200.jpg'
+    thumbnail: '/images/pexels-philkallahar-983200.jpg'
   }
 ]
 

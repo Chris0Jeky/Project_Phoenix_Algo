@@ -74,7 +74,7 @@
             <!-- Main trading dashboard image -->
             <div class="absolute inset-0 overflow-hidden rounded-2xl border border-accent-400/20">
               <img
-                src="/Project_Phoenix_Algo/images/pexels-leeloothefirst-5562085.jpg"
+                src="/images/pexels-leeloothefirst-5562085.jpg"
                 alt="Trading Dashboard"
                 class="w-full h-full object-cover opacity-90"
               />
