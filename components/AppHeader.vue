@@ -4,9 +4,11 @@
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3 group">
-          <div class="w-10 h-10 bg-gradient-to-br from-accent-400 to-accent-500 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-            <span class="text-primary-900 font-bold text-xl">M</span>
-          </div>
+          <img
+            src="/Project_Phoenix_Algo/images/logo3.png"
+            alt="Metricalgo Logo"
+            class="h-10 w-auto transform group-hover:scale-110 transition-transform duration-300"
+          />
           <span class="text-xl font-display font-bold text-white">Metricalgo</span>
         </NuxtLink>
 
