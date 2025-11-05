@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col">
+    <CustomCursor />
     <AppHeader />
     <main class="flex-grow">
       <slot />
