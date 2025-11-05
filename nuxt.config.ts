@@ -6,9 +6,9 @@ export default defineNuxtConfig({
   // Enable SSR and static generation
   ssr: true,
 
-  // Configure for GitHub Pages deployment
+  // Configure for GitHub Pages deployment (production only)
   app: {
-    baseURL: '/Project_Phoenix_Algo/',
+    baseURL: process.env.NODE_ENV === 'production' ? '/Project_Phoenix_Algo/' : '/',
     buildAssetsDir: 'assets',
     head: {
       charset: 'utf-8',
