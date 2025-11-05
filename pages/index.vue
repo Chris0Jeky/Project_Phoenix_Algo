@@ -1,10 +1,15 @@
 <template>
   <div>
     <HeroSection />
+    <SectionDivider type="wave" animated />
     <TrustSection />
+    <SectionDivider type="curve" fill="#121A24" />
     <FeaturesSection />
+    <SectionDivider type="angle" animated />
     <VideoSection />
+    <SectionDivider type="wave" fill="#121A24" />
     <AnalyticsSection />
+    <SectionDivider type="curve" />
     <TestimonialsSection />
     <CTASection />
   </div>
