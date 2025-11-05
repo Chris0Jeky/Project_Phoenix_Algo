@@ -1,14 +1,23 @@
 {
-  "name": "metricalgo-discover",
-  "version": "1.0.0",
+  "name": "metricalgo-landing",
+  "version": "2.0.0",
+  "description": "Premium landing page for Metricalgo - AI-powered trading analytics platform",
+  "author": "Metricalgo Team",
+  "license": "UNLICENSED",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chris0Jeky/Project_Phoenix_Algo"
+  },
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf .nuxt .output node_modules/.cache",
+    "deploy": "npm run generate && echo 'Ready to deploy .output/public to GitHub Pages'"
   },
   "dependencies": {
     "@tresjs/core": "^5.1.0",
