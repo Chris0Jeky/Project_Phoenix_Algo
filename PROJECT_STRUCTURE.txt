@@ -1,0 +1,154 @@
+METRICALGO LANDING PAGE - COMPLETE PROJECT STRUCTURE
+=====================================================
+
+metricalgo_discover/
+│
+├── 📄 Configuration Files
+│   ├── package.json                  # Dependencies & npm scripts
+│   ├── nuxt.config.ts                # Nuxt 4 configuration
+│   ├── tailwind.config.js            # Tailwind theme (colors, fonts, animations)
+│   ├── tsconfig.json                 # TypeScript configuration
+│   └── .gitignore                    # Git ignored files
+│
+├── 📚 Documentation (READ THESE!)
+│   ├── README.md                     # Main documentation & overview
+│   ├── QUICKSTART.md                 # 5-minute quick start guide
+│   ├── SETUP_GUIDE.md                # Detailed step-by-step setup
+│   ├── DECISIONS_AND_STACK.md        # All decisions & tech stack explained
+│   └── PROJECT_STRUCTURE.txt         # This file
+│
+├── 🎨 Application Code
+│   ├── app.vue                       # Root Vue component
+│   │
+│   ├── layouts/                      # Page layouts
+│   │   └── default.vue               # Default layout (header + content + footer)
+│   │
+│   ├── pages/                        # File-based routes
+│   │   └── index.vue                 # Landing page (composes all sections)
+│   │
+│   ├── components/                   # Vue components
+│   │   ├── AppHeader.vue             # Site header with navigation
+│   │   ├── AppFooter.vue             # Site footer with links
+│   │   ├── HeroSection.vue           # Hero/above-the-fold section
+│   │   ├── FeaturesSection.vue       # Features grid (6 features)
+│   │   ├── AnalyticsSection.vue      # Data visualization showcase
+│   │   ├── TestimonialsSection.vue   # User testimonials (6 reviews)
+│   │   └── CTASection.vue            # Final call-to-action
+│   │
+│   └── assets/css/                   # Stylesheets
+│       └── main.css                  # Global styles, Tailwind imports, custom classes
+│
+├── 🚀 Deployment
+│   └── .github/workflows/
+│       └── deploy.yml                # GitHub Actions deployment workflow
+│
+└── 📦 Build Output (auto-generated)
+    ├── .nuxt/                        # Nuxt build cache (gitignored)
+    ├── .output/                      # Static site output (gitignored)
+    ├── node_modules/                 # Dependencies (gitignored)
+    └── dist/                         # Alternative build output (gitignored)
+
+
+KEY FILES TO CUSTOMIZE:
+======================
+
+1. components/HeroSection.vue         → Main headline, CTA buttons
+2. components/FeaturesSection.vue     → Your product features
+3. components/TestimonialsSection.vue → Customer reviews
+4. tailwind.config.js                 → Colors, fonts, design system
+5. components/AppHeader.vue           → Logo, navigation links
+6. components/AppFooter.vue           → Footer links, social media
+
+
+COLOR PALETTE:
+=============
+
+Primary (Navy):    #0E1E2E  → Backgrounds, trust & professionalism
+Secondary (Gray):  #1F3A57  → Cards, borders, supporting elements
+Accent (Turquoise): #3FC5F0  → CTAs, links, highlights
+Success (Green):   #22c55e  → Positive data, gains
+Danger (Red):      #ef4444  → Negative data, losses
+
+
+TYPOGRAPHY:
+==========
+
+Display/Headings: Plus Jakarta Sans (Google Fonts)
+Body Text:        Inter (Google Fonts)
+
+
+NPM SCRIPTS:
+===========
+
+npm install         → Install all dependencies
+npm run dev         → Start development server (http://localhost:3000)
+npm run build       → Build for production
+npm run generate    → Generate static site (.output/public/)
+npm run preview     → Preview production build
+
+
+DEPLOYMENT WORKFLOW:
+===================
+
+1. Make changes to components
+2. Test locally: npm run dev
+3. Commit & push to GitHub
+4. GitHub Actions automatically builds & deploys
+5. Site live at: https://[username].github.io/metricalgo_discover/
+
+
+TECH STACK:
+==========
+
+Framework:    Nuxt 4 (Vue 3)
+Styling:      Tailwind CSS 3
+Language:     TypeScript
+Build Tool:   Vite (built into Nuxt)
+Deployment:   GitHub Pages + GitHub Actions
+Hosting:      Static site (SSG)
+
+
+BROWSER SUPPORT:
+===============
+
+✓ Chrome (last 2 versions)
+✓ Firefox (last 2 versions)
+✓ Safari (last 2 versions)
+✓ Edge (last 2 versions)
+✓ iOS Safari 12+
+✓ Chrome Android 80+
+
+
+PERFORMANCE TARGETS:
+===================
+
+Lighthouse Score:   90+ (all categories)
+First Paint:        < 1.5s
+Time to Interactive: < 3s
+Bundle Size:        < 200KB (gzipped)
+
+
+NEXT STEPS:
+==========
+
+1. Run: npm install
+2. Run: npm run dev
+3. Open: http://localhost:3000/metricalgo_discover/
+4. Edit components to customize content
+5. Add your images/videos to public/images/
+6. Push to GitHub to deploy
+
+For detailed instructions, read QUICKSTART.md!
+
+
+SUPPORT:
+=======
+
+Documentation: See README.md, SETUP_GUIDE.md
+Nuxt Docs:     https://nuxt.com/docs
+Tailwind Docs: https://tailwindcss.com/docs
+Vue Docs:      https://vuejs.org/
+
+
+PROJECT STATUS: ✅ READY TO LAUNCH
+Generated: 2025-11-04
