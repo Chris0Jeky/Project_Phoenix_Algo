@@ -1,12 +1,7 @@
 <template>
-  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-grid bg-noise">
-    <!-- Premium background effects -->
-    <div class="absolute inset-0 overflow-hidden">
-      <div class="absolute top-1/4 -left-48 w-96 h-96 bg-electric/5 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-1/4 -right-48 w-96 h-96 bg-electric/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
-      <!-- Gradient overlay -->
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-midnight/50 to-midnight"></div>
-    </div>
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <!-- Immersive background -->
+    <HeroBackground />
 
     <div class="container-custom relative z-10">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -32,13 +27,13 @@
 
           <!-- Premium CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <NuxtLink to="/signup" class="btn-electric text-lg px-8 py-4 sheen glow-electric">
+            <NuxtLink to="/signup" class="btn-electric btn-press text-lg px-8 py-4 sheen glow-electric">
               Get Started Free
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
               </svg>
             </NuxtLink>
-            <NuxtLink to="#demo" class="btn-metal text-lg px-8 py-4 sheen">
+            <NuxtLink to="#demo" class="btn-metal btn-press text-lg px-8 py-4 sheen">
               Watch Demo
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
