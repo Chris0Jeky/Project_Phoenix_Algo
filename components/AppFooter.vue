@@ -5,9 +5,11 @@
         <!-- Brand -->
         <div class="md:col-span-1">
           <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 bg-gradient-to-br from-accent-400 to-accent-500 rounded-lg flex items-center justify-center">
-              <span class="text-primary-900 font-bold text-xl">M</span>
-            </div>
+            <img
+              src="/Project_Phoenix_Algo/images/logo3.png"
+              alt="Metricalgo Logo"
+              class="h-10 w-auto"
+            />
             <span class="text-xl font-display font-bold text-white">Metricalgo</span>
           </div>
           <p class="text-gray-400 text-sm leading-relaxed">
