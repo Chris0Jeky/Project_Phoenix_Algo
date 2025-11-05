@@ -68,21 +68,18 @@
           </div>
         </div>
 
-        <!-- Right: Visual / Placeholder for future image/video -->
+        <!-- Right: Visual / Trading Dashboard Image -->
         <div class="relative lg:block animate-slide-in-right">
           <div class="relative aspect-square max-w-lg mx-auto">
-            <!-- Placeholder gradient card that will be replaced with actual image/chart -->
-            <div class="absolute inset-0 bg-gradient-to-br from-primary-800/50 to-primary-900/50 backdrop-blur-sm border border-accent-400/20 rounded-2xl p-8 flex items-center justify-center">
-              <div class="text-center">
-                <div class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-accent-400 to-accent-500 rounded-2xl flex items-center justify-center">
-                  <svg class="w-12 h-12 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                  </svg>
-                </div>
-                <p class="text-gray-400 text-sm">
-                  Replace this with your custom<br/>image, chart, or video
-                </p>
-              </div>
+            <!-- Main trading dashboard image -->
+            <div class="absolute inset-0 overflow-hidden rounded-2xl border border-accent-400/20">
+              <img
+                src="/Project_Phoenix_Algo/images/pexels-leeloothefirst-5562085.jpg"
+                alt="Trading Dashboard"
+                class="w-full h-full object-cover opacity-90"
+              />
+              <!-- Overlay gradient for better text contrast -->
+              <div class="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-primary-900/20 to-transparent"></div>
             </div>
 
             <!-- Floating cards with stats -->
