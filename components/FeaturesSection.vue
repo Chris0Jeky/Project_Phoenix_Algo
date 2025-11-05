@@ -4,11 +4,11 @@
       <!-- Section header -->
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-4xl md:text-5xl font-display font-bold text-white mb-6">
-          Everything you need to
-          <span class="gradient-text">trade with confidence</span>
+          Everything you can do
+          <span class="gradient-text block mt-2">Features</span>
         </h2>
-        <p class="text-lg text-gray-300">
-          Our comprehensive suite of tools helps you analyze markets, test strategies, and execute trades with precision.
+        <p class="text-lg text-steel-light">
+          New features coming soon, Stay tuned!
         </p>
       </div>
 
