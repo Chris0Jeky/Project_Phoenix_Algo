@@ -32,11 +32,16 @@ export default defineNuxtConfig({
     preset: 'static',
     prerender: {
       crawlLinks: true,
-      routes: ['/'],
+      routes: ['/', '/signup', '/login'],
       // Ignore 404 errors for pages that don't exist yet
       failOnError: false
     }
   },
+
+  // Modules
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
 
   // Global CSS
   css: ['~/assets/css/main.css'],
