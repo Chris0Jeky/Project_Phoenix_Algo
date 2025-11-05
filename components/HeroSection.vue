@@ -30,15 +30,15 @@
             Make confident trading decisions with real-time market insights, advanced backtesting tools, and AI-powered analysis. Join thousands of traders who trust Metricalgo.
           </p>
 
-          <!-- CTA Buttons -->
+          <!-- Premium CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <NuxtLink to="/signup" class="btn-primary text-lg px-8 py-4">
+            <NuxtLink to="/signup" class="btn-electric text-lg px-8 py-4 sheen glow-electric">
               Get Started Free
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
               </svg>
             </NuxtLink>
-            <NuxtLink to="#demo" class="btn-secondary text-lg px-8 py-4">
+            <NuxtLink to="#demo" class="btn-metal text-lg px-8 py-4 sheen">
               Watch Demo
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
