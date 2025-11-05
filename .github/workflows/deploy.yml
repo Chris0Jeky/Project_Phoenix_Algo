@@ -35,6 +35,11 @@ jobs:
 
       - name: Generate static site
         run: npm run generate
+        env:
+          NITRO_PRESET: static
+
+      - name: Create .nojekyll file
+        run: touch .output/public/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
