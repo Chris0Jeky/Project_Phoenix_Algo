@@ -11,55 +11,49 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Primary colors - deep navy for trust and professionalism
+        // Premium palette: Steel + Electric Cyan
+        midnight: '#0B111A',        // Deep background
+        graphite: {
+          DEFAULT: '#121A24',       // Panels and cards
+          light: '#1A2332',         // Hover states
+          dark: '#0E1520',          // Deeper sections
+        },
+        steel: {
+          DEFAULT: '#8B95A7',       // UI chrome/lines
+          light: '#A4ACBA',         // Hover states
+          dark: '#6B7585',          // Pressed states
+        },
+        platinum: {
+          DEFAULT: '#DDE3EA',       // Neutral accent/highlights
+          light: '#EEF2F6',         // Bright highlights
+          dark: '#C5CDD6',          // Subtle text
+        },
+        electric: {
+          DEFAULT: '#00E5FF',       // Interactive accent
+          light: '#6FF3FF',         // Hover states
+          dark: '#00B8CC',          // Pressed states
+          glow: 'rgba(0, 229, 255, 0.25)',  // Glow effects
+        },
+        // Legacy names for backward compatibility
         primary: {
-          50: '#f0f4f8',
-          100: '#d9e2ec',
-          200: '#bcccdc',
-          300: '#9fb3c8',
-          400: '#829ab1',
-          500: '#627d98',
-          600: '#486581',
-          700: '#334e68',
-          800: '#243b53',
-          900: '#0E1E2E', // Main primary
-          950: '#0a1520',
+          700: '#1A2332',
+          800: '#121A24',
+          900: '#0B111A',
+          950: '#080D14',
         },
-        // Secondary colors - supporting grays
         secondary: {
-          50: '#f7f9fa',
-          100: '#e8ecef',
-          200: '#d1d9df',
-          300: '#adb9c3',
-          400: '#8999a8',
-          500: '#6b7d8f',
-          600: '#556575',
-          700: '#1F3A57', // Main secondary
-          800: '#3a4856',
-          900: '#323e4a',
-          950: '#1f2730',
+          700: '#1F3A57',
         },
-        // Accent color - vibrant turquoise for CTAs and highlights
         accent: {
-          50: '#ecfeff',
-          100: '#cffafe',
-          200: '#a5f3fc',
-          300: '#67e8f9',
-          400: '#3FC5F0', // Main accent
-          500: '#06b6d4',
-          600: '#0891b2',
-          700: '#0e7490',
-          800: '#155e75',
-          900: '#164e63',
-          950: '#083344',
+          400: '#00E5FF',
+          500: '#00B8CC',
         },
-        // Success/positive (for gains)
+        // Success/danger remain vibrant
         success: {
           400: '#4ade80',
           500: '#22c55e',
           600: '#16a34a',
         },
-        // Error/negative (for losses)
         danger: {
           400: '#f87171',
           500: '#ef4444',
