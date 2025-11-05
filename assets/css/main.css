@@ -8,11 +8,12 @@
   }
 
   body {
-    @apply bg-primary-900 text-gray-100 font-sans antialiased;
+    @apply bg-midnight text-platinum-dark font-sans antialiased;
+    background-attachment: fixed;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display font-bold;
+    @apply font-display font-bold text-platinum;
   }
 }
 
