@@ -1,6 +1,18 @@
-# Metricalgo Discovery - Landing Page
+# 🚀 Metricalgo - Premium Trading Analytics Platform
 
-A premium, modern landing page for Metricalgo's trading tools and analytics platform. Built with Nuxt 4, Vue 3, and Tailwind CSS.
+<div align="center">
+
+  [![Deployment](https://github.com/Chris0Jeky/Project_Phoenix_Algo/actions/workflows/deploy.yml/badge.svg)](https://github.com/Chris0Jeky/Project_Phoenix_Algo/actions)
+  [![Nuxt 3](https://img.shields.io/badge/Nuxt-3.13.2-00DC82.svg?logo=nuxt.js)](https://nuxt.com)
+  [![Vue 3](https://img.shields.io/badge/Vue-3.5.12-4FC08D.svg?logo=vue.js)](https://vuejs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
+
+  **[View Live Demo →](https://chris0jeky.github.io/Project_Phoenix_Algo/)**
+</div>
+
+## 📊 Overview
+
+**Metricalgo** is a cutting-edge landing page for an AI-powered trading analytics platform. Built with modern web technologies, it features an immersive design with advanced animations, glassmorphic UI elements, and a sophisticated financial-focused aesthetic.
 
 ## 🚀 Quick Start
 
