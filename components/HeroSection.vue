@@ -1,19 +1,21 @@
 <template>
-  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-    <!-- Background gradient effects -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-grid bg-noise">
+    <!-- Premium background effects -->
     <div class="absolute inset-0 overflow-hidden">
-      <div class="absolute top-1/4 -left-48 w-96 h-96 bg-accent-400/10 rounded-full blur-3xl"></div>
-      <div class="absolute bottom-1/4 -right-48 w-96 h-96 bg-accent-500/10 rounded-full blur-3xl"></div>
+      <div class="absolute top-1/4 -left-48 w-96 h-96 bg-electric/5 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-1/4 -right-48 w-96 h-96 bg-electric/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+      <!-- Gradient overlay -->
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-midnight/50 to-midnight"></div>
     </div>
 
     <div class="container-custom relative z-10">
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         <!-- Left: Content -->
         <div class="text-center lg:text-left animate-slide-up">
-          <!-- Badge -->
-          <div class="inline-flex items-center gap-2 px-4 py-2 bg-accent-400/10 border border-accent-400/20 rounded-full mb-6">
-            <span class="w-2 h-2 bg-accent-400 rounded-full animate-pulse"></span>
-            <span class="text-accent-400 text-sm font-medium">Trusted by 10,000+ traders</span>
+          <!-- Premium Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-2 card-glass rounded-full mb-6 hairline-t">
+            <span class="w-2 h-2 bg-electric rounded-full pulse-subtle"></span>
+            <span class="text-steel text-sm font-medium">Trusted by 10,000+ traders</span>
           </div>
 
           <!-- Headline -->
