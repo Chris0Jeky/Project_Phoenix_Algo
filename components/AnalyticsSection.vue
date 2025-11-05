@@ -151,35 +151,58 @@ const chartOptions = {
     type: 'area',
     toolbar: { show: false },
     background: 'transparent',
+    foreColor: '#8B95A7',
     animations: {
       enabled: true,
       easing: 'easeinout',
       speed: 800
+    },
+    dropShadow: {
+      enabled: true,
+      top: 2,
+      blur: 6,
+      opacity: 0.25
     }
   },
   theme: {
     mode: 'dark'
   },
-  colors: ['#3FC5F0'], // accent-400
+  colors: ['#00E5FF'], // Electric cyan
   dataLabels: { enabled: false },
   stroke: {
     curve: 'smooth',
-    width: 3
+    width: 3,
+    lineCap: 'round'
   },
   fill: {
     type: 'gradient',
     gradient: {
-      shadeIntensity: 1,
-      opacityFrom: 0.4,
-      opacityTo: 0.1,
+      shadeIntensity: 0.8,
+      opacityFrom: 0.35,
+      opacityTo: 0.08,
       stops: [0, 90, 100]
     }
   },
+  markers: {
+    size: 0,
+    hover: {
+      size: 5,
+      sizeOffset: 2
+    },
+    strokeColors: '#0B111A',
+    strokeWidth: 2
+  },
   grid: {
-    borderColor: '#1F3A57',
+    borderColor: 'rgba(139, 149, 167, 0.15)',
     strokeDashArray: 4,
     xaxis: { lines: { show: false } },
-    yaxis: { lines: { show: true } }
+    yaxis: { lines: { show: true } },
+    padding: {
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    }
   },
   xaxis: {
     type: 'category',
